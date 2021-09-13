@@ -1,8 +1,6 @@
 <?php
 
-
 namespace KatalinKS\PriceList\Interfaces\Objects;
-
 
 interface PriceListObj
 {

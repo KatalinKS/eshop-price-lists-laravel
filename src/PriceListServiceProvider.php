@@ -2,9 +2,9 @@
 
 namespace KatalinKS\PriceList;
 
+use KatalinKS\PriceList\Commands\PriceListCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use KatalinKS\PriceList\Commands\PriceListCommand;
 
 class PriceListServiceProvider extends PackageServiceProvider
 {
