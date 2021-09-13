@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace KatalinKS\PriceList\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PriceListCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'eshop-price-lists-laravel';
 
     public $description = 'My command';
 

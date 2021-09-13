@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "katalinks/eshop-price-lists-laravel",
+    "description": "Система прайс листов Laravel",
     "keywords": [
-        ":vendor_name",
+        "KatalinKS",
         "laravel",
-        ":package_slug"
+        "eshop-price-lists-laravel"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/katalinks/eshop-price-lists-laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Skej",
+            "email": "konstantin@katalin.ru",
             "role": "Developer"
         }
     ],
@@ -30,13 +30,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "KatalinKS\\PriceList\\": "src",
+            "KatalinKS\\PriceList\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "KatalinKS\\PriceList\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "KatalinKS\\PriceList\\PriceListServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "PriceList": "KatalinKS\\PriceList\\PriceListFacade"
             }
         }
     },

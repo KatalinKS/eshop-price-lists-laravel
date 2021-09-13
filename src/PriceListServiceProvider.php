@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace KatalinKS\PriceList;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use KatalinKS\PriceList\Commands\PriceListCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class PriceListServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('eshop-price-lists-laravel')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_skeleton_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_eshop-price-lists-laravel_table')
+            ->hasCommand(PriceListCommand::class);
     }
 }

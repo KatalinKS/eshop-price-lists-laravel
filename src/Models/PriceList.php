@@ -1,0 +1,17 @@
+<?php
+
+namespace KatalinKS\PriceList\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+use KatalinKS\PriceList\Interfaces\Objects\PriceListObj;
+
+class PriceList extends Model implements PriceListObj
+{
+    use HasFactory;
+
+    public function getId(): int
+    {
+        return  $this->getOriginal('id');
+    }
+}
