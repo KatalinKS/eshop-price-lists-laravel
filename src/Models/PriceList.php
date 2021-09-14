@@ -15,6 +15,6 @@ class PriceList extends Model implements PriceListObj
 
     public function getId(): int
     {
-        return  $this->getOriginal('id');
+        return  $this->getAttribute('id');
     }
 }
