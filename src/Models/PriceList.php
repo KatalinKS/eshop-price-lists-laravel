@@ -10,7 +10,7 @@ class PriceList extends Model implements PriceListObj
 {
     use HasFactory;
     protected $fillable = [
-        'id'
+        'id',
     ];
 
     public function getId(): int
