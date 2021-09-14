@@ -9,6 +9,9 @@ use KatalinKS\PriceList\Interfaces\Objects\PriceListObj;
 class PriceList extends Model implements PriceListObj
 {
     use HasFactory;
+    protected $fillable = [
+        'id'
+    ];
 
     public function getId(): int
     {
