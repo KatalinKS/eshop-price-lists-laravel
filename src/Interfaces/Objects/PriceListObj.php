@@ -8,7 +8,6 @@ interface PriceListObj
 {
     public function getId(): int;
 
-
     /**
      * Возвращает коллекцию емейлов для оформленных заказов
      * @return Collection
