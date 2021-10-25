@@ -4,7 +4,7 @@ namespace KatalinKS\PriceList\Interfaces\Objects;
 
 use Illuminate\Support\Collection;
 
-interface  PriceListObj
+interface PriceListObj
 {
     public function getId(): int;
 
