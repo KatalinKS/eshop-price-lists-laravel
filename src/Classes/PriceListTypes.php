@@ -6,7 +6,6 @@ use Illuminate\Support\Collection;
 
 class PriceListTypes
 {
-
     private static string $retail = 'retail';
     private static string $wholesale = 'wholesale';
 
