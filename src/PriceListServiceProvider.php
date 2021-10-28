@@ -26,7 +26,7 @@ class PriceListServiceProvider extends PackageServiceProvider
             ->name('eshop-price-lists-laravel')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_eshop-price-lists-laravel_table')
+            //->hasMigration('create_eshop-price-lists-laravel_table')
             ->hasCommand(PriceListCommand::class);
     }
 }
